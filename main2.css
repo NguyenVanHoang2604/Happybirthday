@@ -1,0 +1,67 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .header {
+    background-color:darkcyan;
+    padding: 20px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .birthday-message {
+    padding: 20px;
+  }
+  
+  .fireworks {
+    width: 300px;
+  }
+  
+  .show-message-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color:aliceblue;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .message-container {
+    margin-top: 100px;
+  }
+  
+  .birthday-message {
+    border: 12px solid #ccc;
+    border-radius: 15px;
+    padding: 50px;
+  }
+ body{
+    background-color: black;
+    
+ }
+  p{
+    color:pink;
+  }
+  .element {
+    width: 100%;
+    max-width: 500px; /* Ví dụ: giới hạn kích thước tối đa của phần tử */
+  }
+  
+  /* Sử dụng các truy vấn phương tiện để điều chỉnh kiểu dáng dựa trên kích thước màn hình */
+  @media only screen and (max-width: 600px) {
+    /* CSS cho các thiết bị có độ rộng màn hình nhỏ hơn hoặc bằng 600px */
+  }
+
+  .p img {
+    width: 350px; /* Tự động điều chỉnh chiều rộng để giữ tỷ lệ */
+    height: 600px; /* Đặt chiều cao của ảnh */
+    margin-right: 100px; /* Khoảng cách giữa ảnh và nội dung */
+    margin-top: -1000px; /* Đặt ảnh lên cao một chút */
+  }
